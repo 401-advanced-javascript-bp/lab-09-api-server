@@ -19,6 +19,7 @@ const v1Router = require( `${cwd}/src/api/v1.js` );
 
 // Prepare the express app
 const app = express();
+app.use('/doc', express.static('docs'));
 
 // App Level MW
 app.use(cors());
