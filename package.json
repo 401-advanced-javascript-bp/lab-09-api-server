@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint **/*.js",
-    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
     "test": "jest --watchAll --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "jest": {
     "testEnvironment": "node"
